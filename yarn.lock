@@ -1332,7 +1332,7 @@
 
 "@ksaho/footer@file:/Users/eleme/Desktop/demo/lerna-example/packages/footer":
   "resolved" "file:packages/footer"
-  "version" "0.0.10"
+  "version" "0.0.11"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
@@ -1348,7 +1348,7 @@
 
 "@ksaho/header@file:/Users/eleme/Desktop/demo/lerna-example/packages/header":
   "resolved" "file:packages/header"
-  "version" "0.0.10"
+  "version" "0.0.11"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
@@ -1364,7 +1364,7 @@
 
 "@kshao/remixapp@file:/Users/eleme/Desktop/demo/lerna-example/packages/remixapp":
   "resolved" "file:packages/remixapp"
-  "version" "0.0.10"
+  "version" "0.0.11"
   dependencies:
     "@remix-run/node" "^1.5.1"
     "@remix-run/react" "^1.5.1"
@@ -5639,7 +5639,7 @@
 
 "footer@*":
   "resolved" "file:packages/footer"
-  "version" "0.0.10"
+  "version" "0.0.11"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
@@ -6210,7 +6210,7 @@
 
 "header@*":
   "resolved" "file:packages/header"
-  "version" "0.0.10"
+  "version" "0.0.11"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
