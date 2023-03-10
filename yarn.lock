@@ -1332,7 +1332,7 @@
 
 "@ksaho/footer@file:/Users/eleme/Desktop/demo/lerna-example/packages/footer":
   "resolved" "file:packages/footer"
-  "version" "0.0.2"
+  "version" "0.0.3"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
@@ -1348,7 +1348,7 @@
 
 "@ksaho/header@file:/Users/eleme/Desktop/demo/lerna-example/packages/header":
   "resolved" "file:packages/header"
-  "version" "0.0.2"
+  "version" "0.0.3"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
@@ -1361,6 +1361,18 @@
     "ts-jest" "^27.1.1"
     "tslib" "^2.3.1"
     "typescript" "^4.5.2"
+
+"@kshao/remixapp@file:/Users/eleme/Desktop/demo/lerna-example/packages/remixapp":
+  "resolved" "file:packages/remixapp"
+  "version" "0.0.3"
+  dependencies:
+    "@remix-run/node" "^1.5.1"
+    "@remix-run/react" "^1.5.1"
+    "@remix-run/serve" "^1.5.1"
+    "footer" "*"
+    "header" "*"
+    "react" "18.1.0"
+    "react-dom" "18.1.0"
 
 "@lerna/add@6.0.1":
   "integrity" "sha512-cCQIlMODhi3KYyTDOp2WWL4Kj2dKK+MmCiaSf+USrbSWPVVXQGn5Eb11XOMUfYYq3Ula75sWL2urtYwuu8IbmA=="
@@ -5627,7 +5639,7 @@
 
 "footer@*":
   "resolved" "file:packages/footer"
-  "version" "0.0.2"
+  "version" "0.0.3"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
@@ -6198,7 +6210,7 @@
 
 "header@*":
   "resolved" "file:packages/header"
-  "version" "0.0.2"
+  "version" "0.0.3"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
@@ -10015,18 +10027,6 @@
     "@types/mdast" "^3.0.0"
     "mdast-util-to-hast" "^11.0.0"
     "unified" "^10.0.0"
-
-"remixapp@file:/Users/eleme/Desktop/demo/lerna-example/packages/remixapp":
-  "resolved" "file:packages/remixapp"
-  "version" "0.0.2"
-  dependencies:
-    "@remix-run/node" "^1.5.1"
-    "@remix-run/react" "^1.5.1"
-    "@remix-run/serve" "^1.5.1"
-    "footer" "*"
-    "header" "*"
-    "react" "18.1.0"
-    "react-dom" "18.1.0"
 
 "repeat-element@^1.1.2":
   "integrity" "sha512-LFiNfRcSu7KK3evMyYOuCzv3L10TW7yC1G2/+StMjK8Y6Vqd2MG7r/Qjw4ghtuCOjFvlnms/iMmLqpvW/ES/WQ=="
