@@ -1,6 +1,6 @@
 {
   "name": "@ksaho/footer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && rollup --config",
@@ -21,5 +21,6 @@
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "71a12d175492fc5414bdc2a547b41a65c9900a0b"
 }
