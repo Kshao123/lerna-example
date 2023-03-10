@@ -2,6 +2,7 @@
   "name": "@kshao/remixapp",
   "version": "0.0.9",
   "sideEffects": false,
+  "private": false,
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
