@@ -1,10 +1,7 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error fatal: 无法访问 'https://github.com/Kshao123/lerna-example.git/'：Failed to connect to github.com port 443 after 75220 ms: Couldn't connect to server
-17 error error: 不能获取 origin
-17 error 正在获取 origin
-17 error     at makeError (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/lib/error.js:60:11)
-17 error     at module.exports.sync (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/index.js:194:17)
-17 error     at Object.execSync (/Users/eleme/Desktop/demo/lerna-example/node_modules/@lerna/child-process/index.js:39:16)
-17 error     at updateRemote (/Users/eleme/Desktop/demo/lerna-example/node_modules/lerna/dist/cli.js:6629:22)
-17 error     at isBehindUpstream (/Users/eleme/Desktop/demo/lerna-example/node_modules/lerna/dist/cli.js:6619:7)
-17 error     at VersionCommand.initialize (/Users/eleme/Desktop/demo/lerna-example/node_modules/lerna/dist/cli.js:6953:57)
+58 error Error: Command failed with exit code 1: git push --follow-tags --no-verify --atomic origin main
+58 error error: RPC 失败。HTTP 408 curl 22 The requested URL returned error: 408
+58 error send-pack: unexpected disconnect while reading sideband packet
+58 error fatal: 远端意外挂断了
+58 error Everything up-to-date
+58 error     at makeError (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/lib/error.js:60:11)
+58 error     at handlePromise (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/index.js:118:26)
