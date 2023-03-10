@@ -1,5 +1,5 @@
 {
-  "name": "header",
+  "name": "@ksaho/header",
   "version": "0.0.0",
   "main": "dist/index.js",
   "scripts": {
