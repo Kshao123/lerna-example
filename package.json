@@ -9,7 +9,7 @@
     "build": "lerna run build",
     "clean": "lerna clean --yes",
     "test": "lerna run test",
-    "publish": "lerna publish"
+    "publish": "lerna publish --no-private"
   },
   "devDependencies": {
     "lerna": "^6.0.1"
