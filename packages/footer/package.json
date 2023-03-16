@@ -1,5 +1,5 @@
 {
-  "name": "@ksh7/footer",
+  "name": "@ali/footer-ksh7",
   "version": "0.0.5",
   "private": false,
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "0fb2b9f28ab98e373f608bde1ea9b161126c7fc7",
+  "gitHead": "90fecf4a3912e1fe6574e59e7715a88f88a9b101",
   "publishConfig": {
     "registry": "https://registry.npm.alibaba-inc.com"
   }
