@@ -1,4 +1,7 @@
-59 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
-59 error fatal: 无法访问 'https://github.com/Kshao123/lerna-example.git/'：Failed to connect to github.com port 443 after 75005 ms: Couldn't connect to server
-59 error     at makeError (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/lib/error.js:60:11)
-59 error     at handlePromise (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/index.js:118:26)
+58 error Error: Command failed with exit code 1: git push --follow-tags --no-verify --atomic origin main
+58 error error: RPC 失败。HTTP 408 curl 56 LibreSSL SSL_read: error:02FFF03C:system library:func(4095):Operation timed out, errno 60
+58 error send-pack: unexpected disconnect while reading sideband packet
+58 error fatal: 远端意外挂断了
+58 error Everything up-to-date
+58 error     at makeError (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/lib/error.js:59:11)
+58 error     at handlePromise (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/index.js:114:26)
