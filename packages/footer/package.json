@@ -1,6 +1,6 @@
 {
   "name": "@ksaho/footer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
@@ -23,5 +23,5 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "1196fe78fba7ff267ff164946333709669525055"
+  "gitHead": "dfda0d5ab5d62202d78239794873fda94553d9f4"
 }
