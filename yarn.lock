@@ -1332,7 +1332,7 @@
 
 "@ksh7/footer@file:/Users/eleme/Desktop/demo/lerna-example/packages/footer":
   "resolved" "file:packages/footer"
-  "version" "0.0.2"
+  "version" "0.0.3"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
@@ -5639,7 +5639,7 @@
 
 "footer@*":
   "resolved" "file:packages/footer"
-  "version" "0.0.2"
+  "version" "0.0.3"
   dependencies:
     "@testing-library/react" "13.3.0"
     "@types/jest" "^27.0.3"
