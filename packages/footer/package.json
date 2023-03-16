@@ -23,7 +23,7 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "b89f3b035dd9b6928cb636e551207fb6bb69c17a",
+  "gitHead": "bda5227cab5f2823616e17f1316f53183b3e0b7a",
   "publishConfig": {
     "registry": "https://registry.npm.alibaba-inc.com"
   }
