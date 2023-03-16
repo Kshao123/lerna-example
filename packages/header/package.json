@@ -1,5 +1,5 @@
 {
-  "name": "@kshao/header",
+  "name": "@142536yu/header",
   "version": "0.0.17",
   "private": false,
   "main": "dist/index.js",
@@ -23,5 +23,5 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "c0718b83ab15e84b50e82975fa1c714ee71de931"
+  "gitHead": "9689e4e1c1329e9989a24d70b276ba32f239cecc"
 }
