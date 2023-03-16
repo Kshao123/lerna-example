@@ -1,7 +1,133 @@
-58 error Error: Command failed with exit code 1: git push --follow-tags --no-verify --atomic origin main
-58 error error: RPC 失败。HTTP 408 curl 22 The requested URL returned error: 408
-58 error send-pack: unexpected disconnect while reading sideband packet
-58 error fatal: 远端意外挂断了
-58 error Everything up-to-date
-58 error     at makeError (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/lib/error.js:60:11)
-58 error     at handlePromise (/Users/eleme/Desktop/demo/lerna-example/node_modules/execa/index.js:118:26)
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   private: false,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.5.1',
+0 silly argv   '$0': '/Users/eleme/Desktop/demo/lerna-example/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v6.5.1
+2 verbose rootPath /Users/eleme/Desktop/demo/lerna-example
+3 info versioning independent
+4 verbose session f42b6a5c9a8e74c1
+5 verbose user-agent lerna/6.5.1/node@v18.12.1+x64 (darwin)
+6 warn Yarn's registry proxy is broken, replacing with public npm registry
+7 warn If you don't have an npm token, you should exit and run `npm login`
+8 silly argv {
+8 silly argv   _: [ 'publish' ],
+8 silly argv   private: false,
+8 silly argv   composed: 'publish',
+8 silly argv   lernaVersion: '6.5.1'
+8 silly argv }
+9 verbose rootPath /Users/eleme/Desktop/demo/lerna-example
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch main
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "@ksaho/footer@0.0.4-1-g9639b79" => {"lastTagName":"@ksaho/footer@0.0.4","lastVersion":"0.0.4","refCount":"1","sha":"9639b79","isDirty":false}
+20 info Looking for changed packages since @ksaho/footer@0.0.4
+21 silly checking diff packages/footer
+22 silly found diff in packages/footer/package.json
+23 verbose filtered diff [ 'packages/footer/package.json' ]
+24 silly checking diff packages/header
+25 silly found diff in packages/header/package.json
+26 verbose filtered diff [ 'packages/header/package.json' ]
+27 silly checking diff packages/remixapp
+28 silly no diff found in @kshao/remixapp
+29 verbose updated @kshao/footer
+30 verbose updated @kshao/header
+31 verbose git-describe undefined => "@ksaho/footer@0.0.4-1-g9639b79"
+32 silly git-describe parsed => {"lastTagName":"@ksaho/footer@0.0.4","lastVersion":"0.0.4","refCount":"1","sha":"9639b79","isDirty":false}
+33 info execute Skipping releases
+34 silly lifecycle No script for "preversion" in "root", continuing
+35 silly lifecycle No script for "preversion" in "@kshao/footer", continuing
+36 silly lifecycle No script for "preversion" in "@kshao/header", continuing
+37 silly lifecycle No script for "version" in "@kshao/header", continuing
+38 silly lifecycle No script for "version" in "@kshao/footer", continuing
+39 silly lifecycle No script for "version" in "root", continuing
+40 silly gitAdd [
+40 silly gitAdd   'packages/header/package.json',
+40 silly gitAdd   'packages/header/package-lock.json',
+40 silly gitAdd   'packages/footer/package.json',
+40 silly gitAdd   'packages/footer/package-lock.json'
+40 silly gitAdd ]
+41 silly gitCommit Publish
+41 silly gitCommit
+41 silly gitCommit  - @kshao/footer@0.0.5
+41 silly gitCommit  - @kshao/header@0.0.13
+42 verbose git [
+42 verbose git   'commit',
+42 verbose git   '-F',
+42 verbose git   '/private/var/folders/_1/hdd9qhms37ldk2b3p067bsdw0000gn/T/ffe6f6d8-7fcd-4469-9cda-af3c10915a5b/lerna-commit.txt'
+42 verbose git ]
+43 silly gitTag @kshao/footer@0.0.5 git tag %s -m %s
+44 verbose git [ 'tag', '@kshao/footer@0.0.5', '-m', '@kshao/footer@0.0.5' ]
+45 silly gitTag @kshao/header@0.0.13 git tag %s -m %s
+46 verbose git [ 'tag', '@kshao/header@0.0.13', '-m', '@kshao/header@0.0.13' ]
+47 silly lifecycle No script for "postversion" in "@kshao/footer", continuing
+48 silly lifecycle No script for "postversion" in "@kshao/header", continuing
+49 silly lifecycle No script for "postversion" in "root", continuing
+50 info git Pushing tags...
+51 silly gitPush origin main
+52 info publish Publishing packages to npm...
+53 warn ENOLICENSE Packages @kshao/footer and @kshao/header are missing a license.
+53 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+53 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+54 silly getCurrentSHA
+55 verbose getCurrentSHA be0d2efe1bbc31cce958c521177c8e03de3aef8a
+56 warn lifecycle Skipping root "prepublish" because it has already been called
+57 silly lifecycle No script for "prepare" in "root", continuing
+58 silly lifecycle No script for "prepublishOnly" in "root", continuing
+59 silly lifecycle No script for "prepack" in "root", continuing
+60 verbose pack-directory packages/footer
+61 verbose pack-directory packages/header
+62 silly lifecycle No script for "prepublish" in "@kshao/footer", continuing
+63 silly lifecycle No script for "prepublish" in "@kshao/header", continuing
+64 silly lifecycle No script for "prepare" in "@kshao/footer", continuing
+65 silly lifecycle No script for "prepare" in "@kshao/header", continuing
+66 silly lifecycle No script for "prepublishOnly" in "@kshao/header", continuing
+67 silly lifecycle No script for "prepublishOnly" in "@kshao/footer", continuing
+68 silly lifecycle No script for "prepack" in "@kshao/header", continuing
+69 silly lifecycle No script for "prepack" in "@kshao/footer", continuing
+70 silly lifecycle No script for "postpack" in "@kshao/footer", continuing
+71 verbose packed packages/footer
+72 silly lifecycle No script for "postpack" in "@kshao/header", continuing
+73 verbose packed packages/header
+74 silly lifecycle No script for "postpack" in "root", continuing
+75 verbose publish @kshao/footer
+76 verbose publish @kshao/header
+77 silly FetchError: request to https://registry.npmjs.org/@kshao%2ffooter failed, reason: connect ETIMEDOUT 104.16.19.35:443
+77 silly     at ClientRequest.<anonymous> (/Users/eleme/Desktop/demo/lerna-example/node_modules/minipass-fetch/lib/index.js:130:14)
+77 silly     at ClientRequest.emit (node:events:513:28)
+77 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+77 silly     at TLSSocket.emit (node:events:525:35)
+77 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+77 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+77 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+77 silly  FetchError: request to https://registry.npmjs.org/@kshao%2ffooter failed, reason: connect ETIMEDOUT 104.16.19.35:443
+77 silly     at ClientRequest.<anonymous> (/Users/eleme/Desktop/demo/lerna-example/node_modules/minipass-fetch/lib/index.js:130:14)
+77 silly     at ClientRequest.emit (node:events:513:28)
+77 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+77 silly     at TLSSocket.emit (node:events:525:35)
+77 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
+77 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+77 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+77 silly   code: 'ETIMEDOUT',
+77 silly   errno: 'ETIMEDOUT',
+77 silly   syscall: 'connect',
+77 silly   address: '104.16.19.35',
+77 silly   port: 443,
+77 silly   type: 'system'
+77 silly }
+78 error ETIMEDOUT request to https://registry.npmjs.org/@kshao%2ffooter failed, reason: connect ETIMEDOUT 104.16.19.35:443
+79 error FetchError: request to https://registry.npmjs.org/@kshao%2ffooter failed, reason: connect ETIMEDOUT 104.16.19.35:443
+79 error     at ClientRequest.<anonymous> (/Users/eleme/Desktop/demo/lerna-example/node_modules/minipass-fetch/lib/index.js:130:14)
+79 error     at ClientRequest.emit (node:events:513:28)
+79 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+79 error     at TLSSocket.emit (node:events:525:35)
+79 error     at emitErrorNT (node:internal/streams/destroy:151:8)
+79 error     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
