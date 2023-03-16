@@ -2,5 +2,13 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
   "useWorkspaces": true,
-  "packages": ["packages/*"]
+  "packages": ["packages/*"],
+  "registry": "https://registry.npm.alibaba-inc.com",
+  "preid": "beta",
+  "changelogPreset": "angular",
+  "command": {
+    "publish": {
+      "npmClient": "tnpm"
+    }
+  }
 }
