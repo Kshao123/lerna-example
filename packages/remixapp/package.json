@@ -1,6 +1,6 @@
 {
   "name": "@ksh7/remixapp",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "sideEffects": false,
   "private": false,
   "scripts": {
