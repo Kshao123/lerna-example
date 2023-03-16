@@ -1,5 +1,5 @@
 {
-  "name": "@ksh77/remixapp",
+  "name": "@ksh7/remixapp",
   "version": "0.0.14",
   "sideEffects": false,
   "private": false,
@@ -42,5 +42,5 @@
       }
     }
   },
-  "gitHead": "3f67e1411075cff9f28852597552ef3d39dc90a3"
+  "gitHead": "0d97aad45d87e8e59fd36a70e1334514feadf185"
 }
