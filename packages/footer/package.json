@@ -1,6 +1,6 @@
 {
   "name": "@kshao/footer",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
@@ -23,5 +23,5 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "f7aa9518902a99be0e7a253c28d86167316cbc01"
+  "gitHead": "e829e25a30d4f0ceed680baae3072e84aa2161bd"
 }

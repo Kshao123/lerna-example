@@ -15,7 +15,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/:_authToken=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"
   },
   "version": "0.0.0"
 }

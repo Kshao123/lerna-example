@@ -3,8 +3,4 @@
   "version": "independent",
   "useWorkspaces": true,
   "packages": ["packages/*"],
-  "publishConfig": {
-    "access": "public"
-  },
-  "npmClient": "yarn"
 }
